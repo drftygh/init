@@ -1,3 +1,4 @@
-function sumArray(arr) {
-  return arr.reduce((acc, curr) => acc + curr, 0);
-}
+const firstName = "John";
+const lastName = "Doe";
+const fullName = firstName + " " + lastName;
+console.log(fullName); // John Doe
